@@ -1,0 +1,15 @@
+PharmaNex — application installable (prototype)
+
+Contenu : index.html, manifest.webmanifest, sw.js, dossier icons/.
+Les fichiers doivent rester ensemble, à la racine du site.
+
+1. Mettre le dossier en ligne en HTTPS (obligatoire pour l'installation)
+   - GitHub Pages : créer un dépôt public, déposer TOUS les fichiers (dossier icons compris),
+     puis Settings > Pages > Deploy from a branch > main / (root).
+   - ou Netlify : glisser-déposer le dossier décompressé sur la page « Deploy manually ».
+2. Ouvrir l'adresse obtenue dans Chrome (Android), attendre 2 à 3 secondes,
+   menu ⋮ > « Installer l'application » (et non « Ajouter à l'écran d'accueil »).
+3. iPhone : ouvrir dans Safari > Partager > « Sur l'écran d'accueil ».
+4. Pour publier une nouvelle version : modifier le numéro V dans sw.js (pharmanex-v1 -> v2).
+
+Les données du prototype sont fictives et ne sont pas enregistrées.
